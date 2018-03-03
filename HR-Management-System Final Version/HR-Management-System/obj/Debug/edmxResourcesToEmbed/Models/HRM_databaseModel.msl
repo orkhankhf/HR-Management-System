@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HRM_databaseModelStoreContainer" CdmEntityContainer="HRM_databaseEntities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="admin_fullname" ColumnName="admin_fullname" />
+          <ScalarProperty Name="admin_email" ColumnName="admin_email" />
+          <ScalarProperty Name="admin_password" ColumnName="admin_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Attendences">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Attendence">
+        <MappingFragment StoreEntitySet="Attendence">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="atten_emp_id" ColumnName="atten_emp_id" />
+          <ScalarProperty Name="atten_status" ColumnName="atten_status" />
+          <ScalarProperty Name="atten_leave_type_id" ColumnName="atten_leave_type_id" />
+          <ScalarProperty Name="atten_date" ColumnName="atten_date" />
+          <ScalarProperty Name="atten_reason" ColumnName="atten_reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Awards">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Award">
+        <MappingFragment StoreEntitySet="Award">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="award_emp_id" ColumnName="award_emp_id" />
+          <ScalarProperty Name="award_name" ColumnName="award_name" />
+          <ScalarProperty Name="award_reason" ColumnName="award_reason" />
+          <ScalarProperty Name="award_cash_price" ColumnName="award_cash_price" />
+          <ScalarProperty Name="award_date" ColumnName="award_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departaments">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Departament">
+        <MappingFragment StoreEntitySet="Departament">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="depart_name" ColumnName="depart_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Designations">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Designation">
+        <MappingFragment StoreEntitySet="Designation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="desig_name" ColumnName="desig_name" />
+          <ScalarProperty Name="depart_id" ColumnName="depart_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="emp_fullname" ColumnName="emp_fullname" />
+          <ScalarProperty Name="emp_fathername" ColumnName="emp_fathername" />
+          <ScalarProperty Name="emp_dateof_birth" ColumnName="emp_dateof_birth" />
+          <ScalarProperty Name="emp_gender_id" ColumnName="emp_gender_id" />
+          <ScalarProperty Name="emp_phone" ColumnName="emp_phone" />
+          <ScalarProperty Name="emp_address" ColumnName="emp_address" />
+          <ScalarProperty Name="emp_photo" ColumnName="emp_photo" />
+          <ScalarProperty Name="emp_email" ColumnName="emp_email" />
+          <ScalarProperty Name="emp_password" ColumnName="emp_password" />
+          <ScalarProperty Name="emp_dep_id" ColumnName="emp_dep_id" />
+          <ScalarProperty Name="emp_desig_id" ColumnName="emp_desig_id" />
+          <ScalarProperty Name="emp_date_of_joining" ColumnName="emp_date_of_joining" />
+          <ScalarProperty Name="emp_exit_date" ColumnName="emp_exit_date" />
+          <ScalarProperty Name="emp_work_status" ColumnName="emp_work_status" />
+          <ScalarProperty Name="emp_salary" ColumnName="emp_salary" />
+          <ScalarProperty Name="emp_resume" ColumnName="emp_resume" />
+          <ScalarProperty Name="emp_offer_letter" ColumnName="emp_offer_letter" />
+          <ScalarProperty Name="emp_joining_letter" ColumnName="emp_joining_letter" />
+          <ScalarProperty Name="emp_contact_and_argue" ColumnName="emp_contact_and_argue" />
+          <ScalarProperty Name="emp_ID_proof" ColumnName="emp_ID_proof" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genders">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Gender">
+        <MappingFragment StoreEntitySet="Gender">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="gender_name" ColumnName="gender_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Holidays">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Holiday">
+        <MappingFragment StoreEntitySet="Holiday">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="holiday_name" ColumnName="holiday_name" />
+          <ScalarProperty Name="holiday_date" ColumnName="holiday_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leave_status">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Leave_status">
+        <MappingFragment StoreEntitySet="Leave_status">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="status_name" ColumnName="status_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leave_type">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Leave_type">
+        <MappingFragment StoreEntitySet="Leave_type">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="type_name" ColumnName="type_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notice_Board">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Notice_Board">
+        <MappingFragment StoreEntitySet="Notice_Board">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="notice_title" ColumnName="notice_title" />
+          <ScalarProperty Name="notice_content" ColumnName="notice_content" />
+          <ScalarProperty Name="notice_status" ColumnName="notice_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leave_App">
+      <EntityTypeMapping TypeName="HRM_databaseModel.Leave_App">
+        <MappingFragment StoreEntitySet="Leave_App">
+          <ScalarProperty Name="leave_status_id" ColumnName="leave_status_id" />
+          <ScalarProperty Name="leave_reason" ColumnName="leave_reason" />
+          <ScalarProperty Name="leave_date" ColumnName="leave_date" />
+          <ScalarProperty Name="leave_emp_id" ColumnName="leave_emp_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

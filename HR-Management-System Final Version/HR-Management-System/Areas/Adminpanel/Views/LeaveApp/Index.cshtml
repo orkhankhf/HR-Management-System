@@ -1,0 +1,233 @@
+﻿@model IEnumerable<HR_Management_System.Models.Leave_App>
+
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Areas/Adminpanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-content-wrapper">
+	<div class="page-content">
+		<!-- BEGIN PAGE HEADER-->
+		<h3 class="page-title">
+			Leave Applications
+		</h3>
+		<div class="page-bar">
+			<ul class="page-breadcrumb">
+				<li>
+					<i class="fa fa-home"></i>
+					<a href="@Url.Action("Index", "Home")">Home</a>
+					<i class="fa fa-angle-right"></i>
+				</li>
+				<li>
+					<a href="@Url.Action("Index", "LeaveApp")">Leave Applications</a>
+					<i class="fa "></i>
+				</li>
+			</ul>
+
+		</div>
+		<!-- END PAGE HEADER-->
+		<!-- BEGIN PAGE CONTENT-->
+		<div class="row">
+			<div class="col-md-12">
+
+				<!-- BEGIN EXAMPLE TABLE PORTLET-->
+				<div id="load">
+
+
+				</div>
+
+				<div class="portlet box blue">
+					<div class="portlet-title">
+						<div class="caption">
+							<i class="fa fa-rocket"></i>Applications
+						</div>
+						<div class="tools">
+						</div>
+					</div>
+
+					<div class="portlet-body">
+						<table class="table table-striped table-bordered table-hover" >
+							<thead>
+								<tr>
+									<th class="text-center">
+										Employeer
+									</th>
+									<th class="text-center">
+										Date
+									</th>
+									<th style="text-align: center">
+										Reason
+									</th>
+									<th class="text-center">
+										Leave Status
+									</th>
+									<th>
+										Action
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model.OrderByDescending(m=>m.leave_date))
+								{
+									<tr>
+										<td class="emp_fullname_@item.id">
+											@Html.DisplayFor(modelItem => item.Employee.emp_fullname)
+										</td>
+										<td class="leave_date_@item.id">
+											@Convert.ToDateTime(item.leave_date).ToShortDateString()
+										</td>
+										<td class="leave_reason_@item.id">
+											@Html.DisplayFor(modelItem => item.leave_reason)
+										</td>
+										<td class="leave_status_@item.id">
+											@Html.DisplayFor(modelItem => item.Leave_status.status_name)
+										</td>
+										<td>
+											<p>
+												<a id="@item.id" class="btn purple" data-toggle="modal" data-target="#static" onclick="change_leave_status(this.id)"><i class="fa fa-edit"></i>Change Status</a>
+											</p>
+										</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- END EXAMPLE TABLE PORTLET-->
+
+			</div>
+		</div>
+		<!-- END PAGE CONTENT-->
+
+
+				<div id="static" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+								<span class="caption-subject font-red-sunglo bold uppercase">Leave Application</span>
+							</div>
+							<div class="modal-body" id="modal-data-application">
+								<div class="modal-body" id="modal-data-application"><div class="portlet-body form">
+                                        <div class="row">
+                                             <label class="control-label col-md-3"><strong>Name</strong></label>
+                                            <div class="col-md-9 modal_emp_fullname">
+                                                Antonio Lima
+                                            </div>
+                                        </div>
+                                        <br>
+                                         <div class="row">
+                                             <label class="control-label col-md-3"><strong>Date</strong></label>
+                                            <div class="col-md-9 modal_leave_date">
+                                                 28-Feb-2018
+                                            </div>
+                                            </div>
+                                        <br>
+                                         <div class="row">
+                                             <label class="control-label col-md-3"><strong>Reason</strong></label>
+                                            <div class="col-md-9 modal_leave_reason">
+                                                  
+                                            </div>
+                                            </div>
+                                        <br>
+                                        <div class="row">
+                                             <label class="control-label col-md-3"><strong>Status</strong></label>
+                                            <div class="col-md-9">
+												<select class="form-control application_status" onchange="status_changed()">
+													@foreach (var item in Model.Select(l=>l.Leave_status).Distinct().OrderBy(o=>o.status_name))
+													{
+															<option value="@item.id">@item.status_name</option>
+													}
+												</select>
+                                            </div>
+                                            </div>
+                                        <br>
+                                <div class="form-actions">
+                                    <div class="row">
+                                        <div class="col-md-offset-3 col-md-9">
+                                            <button type="button" class="btn green submit_leave_status_change"><i class="fa fa-check"></i> Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                             </div></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+</div>
+
+</div>
+
+<script>
+	var new_status_id;
+	function change_leave_status(id) {
+		$(".modal_emp_fullname").text($(".emp_fullname_" + id).text());
+		$(".modal_leave_date").text($(".leave_date_" + id).text());
+		$(".modal_leave_reason").text($(".leave_reason_" + id).text());
+		$(".submit_leave_status_change").attr("id", id);
+		new_status_id = $(".application_status").val();
+	}
+	function status_changed() {
+		new_status_id = $(".application_status").val();
+	}
+	$(".submit_leave_status_change").click(function () {
+		id = this.id;
+		var url = "@Url.Action("Edit", "LeaveApp", new { Id="-1"})";
+		url = url.replace("-1", id);
+
+		$.ajax({
+			method: "POST",
+			url: url,
+			data: { "status_id": new_status_id }
+		}).done(function (response) {
+			if (response.status == "success") {
+				$(".leave_status_" + id).text($(".application_status option:selected").text());
+				$("#static").hide("slow");
+			}
+		});
+	})
+</script>
+
+@*<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.leave_date)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.leave_reason)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Employee.emp_fullname)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Leave_status.status_name)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.leave_date)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.leave_reason)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Employee.emp_fullname)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Leave_status.status_name)
+			</td>
+			<td>
+				@Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+				@Html.ActionLink("Details", "Details", new { id = item.id }) |
+				@Html.ActionLink("Delete", "Delete", new { id = item.id })
+			</td>
+		</tr>
+	}
+
+</table>*@

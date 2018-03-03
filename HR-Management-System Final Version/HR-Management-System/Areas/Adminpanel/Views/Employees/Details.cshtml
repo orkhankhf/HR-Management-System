@@ -1,0 +1,179 @@
+﻿@model HR_Management_System.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Adminpanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_fullname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_fullname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_fathername)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_fathername)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_dateof_birth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_dateof_birth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_photo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_photo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_date_of_joining)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_date_of_joining)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_exit_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_exit_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_work_status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_work_status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_salary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_salary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_resume)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_resume)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_offer_letter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_offer_letter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_joining_letter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_joining_letter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_contact_and_argue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_contact_and_argue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emp_ID_proof)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emp_ID_proof)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Departament.depart_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Departament.depart_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Designation.desig_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Designation.desig_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender.gender_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender.gender_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HRM_databaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="admin_fullname" Type="nvarchar" MaxLength="100" />
+    <Property Name="admin_email" Type="nvarchar" MaxLength="100" />
+    <Property Name="admin_password" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Attendence">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="atten_emp_id" Type="int" />
+    <Property Name="atten_status" Type="bit" />
+    <Property Name="atten_leave_type_id" Type="int" />
+    <Property Name="atten_date" Type="datetime" />
+    <Property Name="atten_reason" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Award">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="award_emp_id" Type="int" />
+    <Property Name="award_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="award_reason" Type="nvarchar(max)" />
+    <Property Name="award_cash_price" Type="float" />
+    <Property Name="award_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Departament">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="depart_name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Designation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="desig_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="depart_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="emp_fullname" Type="nvarchar" MaxLength="100" />
+    <Property Name="emp_fathername" Type="nvarchar" MaxLength="50" />
+    <Property Name="emp_dateof_birth" Type="datetime" />
+    <Property Name="emp_gender_id" Type="int" />
+    <Property Name="emp_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="emp_address" Type="nvarchar" MaxLength="500" />
+    <Property Name="emp_photo" Type="nvarchar(max)" />
+    <Property Name="emp_email" Type="nvarchar" MaxLength="100" />
+    <Property Name="emp_password" Type="nvarchar" MaxLength="500" />
+    <Property Name="emp_dep_id" Type="int" />
+    <Property Name="emp_desig_id" Type="int" />
+    <Property Name="emp_date_of_joining" Type="datetime" />
+    <Property Name="emp_exit_date" Type="datetime" />
+    <Property Name="emp_work_status" Type="bit" />
+    <Property Name="emp_salary" Type="float" />
+    <Property Name="emp_resume" Type="nvarchar(max)" />
+    <Property Name="emp_offer_letter" Type="nvarchar(max)" />
+    <Property Name="emp_joining_letter" Type="nvarchar(max)" />
+    <Property Name="emp_contact_and_argue" Type="nvarchar(max)" />
+    <Property Name="emp_ID_proof" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="gender_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Holiday">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="holiday_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="holiday_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Leave_App">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="leave_emp_id" Type="int" />
+    <Property Name="leave_date" Type="datetime" />
+    <Property Name="leave_reason" Type="nvarchar" MaxLength="200" />
+    <Property Name="leave_status_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Leave_status">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="status_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Leave_type">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="type_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Notice_Board">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="notice_title" Type="nvarchar" MaxLength="100" />
+    <Property Name="notice_content" Type="nvarchar(max)" />
+    <Property Name="notice_status" Type="bit" />
+  </EntityType>
+  <Association Name="FK_Attendence_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="atten_emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Attendence_Leave_type">
+    <End Role="Leave_type" Type="Self.Leave_type" Multiplicity="0..1" />
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Leave_type">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="atten_leave_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Award_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Award" Type="Self.Award" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Award">
+        <PropertyRef Name="award_emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Designation_Designation">
+    <End Role="Departament" Type="Self.Departament" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Designation" Type="Self.Designation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departament">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Designation">
+        <PropertyRef Name="depart_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Departament">
+    <End Role="Departament" Type="Self.Departament" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departament">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="emp_dep_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Designation">
+    <End Role="Designation" Type="Self.Designation" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Designation">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="emp_desig_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="emp_gender_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Leave_App_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Leave_App" Type="Self.Leave_App" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Leave_App">
+        <PropertyRef Name="leave_emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Leave_App_Leave_status">
+    <End Role="Leave_status" Type="Self.Leave_status" Multiplicity="0..1" />
+    <End Role="Leave_App" Type="Self.Leave_App" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Leave_status">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Leave_App">
+        <PropertyRef Name="leave_status_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HRM_databaseModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Attendence" EntityType="Self.Attendence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Award" EntityType="Self.Award" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departament" EntityType="Self.Departament" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Designation" EntityType="Self.Designation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Gender" EntityType="Self.Gender" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Holiday" EntityType="Self.Holiday" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Leave_App" EntityType="Self.Leave_App" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Leave_status" EntityType="Self.Leave_status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Leave_type" EntityType="Self.Leave_type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notice_Board" EntityType="Self.Notice_Board" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Attendence_Employee" Association="Self.FK_Attendence_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Attendence" EntitySet="Attendence" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Attendence_Leave_type" Association="Self.FK_Attendence_Leave_type">
+      <End Role="Leave_type" EntitySet="Leave_type" />
+      <End Role="Attendence" EntitySet="Attendence" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Award_Employee" Association="Self.FK_Award_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Award" EntitySet="Award" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Designation_Designation" Association="Self.FK_Designation_Designation">
+      <End Role="Departament" EntitySet="Departament" />
+      <End Role="Designation" EntitySet="Designation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Departament" Association="Self.FK_Employee_Departament">
+      <End Role="Departament" EntitySet="Departament" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Designation" Association="Self.FK_Employee_Designation">
+      <End Role="Designation" EntitySet="Designation" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Gender" Association="Self.FK_Employee_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Leave_App_Employee" Association="Self.FK_Leave_App_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Leave_App" EntitySet="Leave_App" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Leave_App_Leave_status" Association="Self.FK_Leave_App_Leave_status">
+      <End Role="Leave_status" EntitySet="Leave_status" />
+      <End Role="Leave_App" EntitySet="Leave_App" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

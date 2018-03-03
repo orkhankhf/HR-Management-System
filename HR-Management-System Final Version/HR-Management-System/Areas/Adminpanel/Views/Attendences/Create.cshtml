@@ -1,0 +1,132 @@
+﻿@model HR_Management_System.ViewModels.Adminpanel.CreateAttendence
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Adminpanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-content-wrapper">
+	<div class="page-content">
+		<!-- BEGIN PAGE HEADER-->
+		<h3 class="page-title">
+			Today's Attendance
+		</h3>
+		<div class="page-bar">
+			<ul class="page-breadcrumb">
+				<li>
+					<i class="fa fa-home"></i>
+					<a href="@Url.Action("Index", "Home")">Home</a>
+					<i class="fa fa-angle-right"></i>
+				</li>
+				<li>
+					<a href="@Url.Action("Index", "Attendences")">Attendace</a>
+					<i class="fa fa-angle-right"></i>
+				</li>
+				<li>
+					<a href="@Url.Action("Create", "Attendences")">Today's Attendace</a>
+				</li>
+			</ul>
+
+		</div>
+		<!-- END PAGE HEADER-->
+		<!-- BEGIN PAGE CONTENT-->
+		<div class="row">
+			<div class="col-md-12">
+				<!-- BEGIN EXAMPLE TABLE PORTLET-->
+
+				<div class="portlet box blue">
+					<div class="portlet-title">
+						<div class="caption">
+							<i class="fa fa-edit"></i>
+							Mark Attendance
+						</div>
+						<div class="tools">
+						</div>
+					</div>
+
+					<div class="portlet-body form">
+
+						<!-- BEGIN FORM-->
+						<form method="POST" action="@Url.Action("Create", "Attendences")" accept-charset="UTF-8" class="form-horizontal">
+							<div class="form-body">
+								<h3 class="form-section">Date @DateTime.Now.ToShortDateString()</h3>
+								<div class="form-group">
+									<label class="col-md-1 control-group">EmployeeID</label>
+									<label class="col-md-2 control-group">Fullname</label>
+									<label class="col-md-2 control-group">Status </label>
+									<label class="col-md-2 control-group leaveType" id="leaveTypeLabel">Type of leave </label>
+									<label class="col-md-3 control-group reason" id="reasonLabel">Reason </label>
+								</div>
+								@foreach (var item in Model.Employee)
+								{
+									<div class="form-group">
+										<label class="col-md-1 control-group">@item.id</label>
+										<label class="col-md-2 control-group">@item.emp_fullname</label>
+                                        <div class="col-md-2">
+                                            <input type="checkbox" id="checkbox_@item.id" onchange="showHide('@item.id');return false;" class="make-switch" name="checkbox[@item.id]" checked data-on-color="success" data-on-text="P" data-off-text="A" data-off-color="danger">
+                                            <input type="hidden" id="employee_@item.id" value="@item.id">
+                                        </div>
+										<div class="col-md-2">
+											<select class="form-control leaveType" id="leaveType_@item.id">
+												@foreach (var type in Model.Leave_type)
+												{
+													<option value="@type.id">@type.type_name</option>
+												}
+											</select>
+										</div>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control reason" id="reason_@item.id" placeholder="Absent Reason" value="">
+                                        </div>
+                                    </div>
+								}
+								<div class="form-actions">
+									<div class="row">
+										<div class="col-md-offset-3 col-md-9">
+											<button type="submit" class="btn green"><i class="fa fa-edit"></i> Submit</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+
+						<!-- END FORM-->
+
+					</div>
+				</div>
+				<!-- END EXAMPLE TABLE PORTLET-->
+
+			</div>
+		</div>
+	</div>
+</div>
+
+		<script>
+            var count = 0;
+			$('.leaveType').hide();
+			$('.reason').hide();
+			$('.halfLeaveType').hide();
+
+			
+			function showHide(id) {
+				$('#leaveTypeLabel').show(100);
+				$('#reasonLabel').show(100);
+
+				if ($('#checkbox_' + id + ':checked').val() == 'on') {
+					$('#leaveType_' + id).hide(1000);
+					$('#reason_' + id).hide(1000);
+                    count--;
+                    $('#leaveType_' + id).removeAttr("name");
+                    $('#reason_' + id).removeAttr("name");
+                    $('#employee_' + id).removeAttr("name");
+				} else {
+                    $('#leaveType_' + id).attr("name", "leaveType["+count+"]");
+					$('#leaveType_' + id).show(100);
+
+                    $('#reason_' + id).attr("name", "reasonText[" + count +"]");
+                    $('#reason_' + id).show(500);
+
+                    $("#employee_" + id).attr("name", "empId[" + count + "]");
+                    count++;
+				}
+			}
+		</script>

@@ -1,0 +1,176 @@
+﻿@model HR_Management_System.Models.Award
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Adminpanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="page-content-wrapper">
+        <div class="page-content">
+			<!-- BEGIN PAGE HEADER-->
+			<h3 class="page-title">
+			<i class="fa fa-edit"></i> Edit <small>we given to Ethyl Stroman</small>
+			</h3>
+			<div class="page-bar">
+				<ul class="page-breadcrumb">
+					<li>
+						<i class="fa fa-home"></i>
+						<a href="@Url.Action("Index", "Home")">Home</a>
+						<i class="fa fa-angle-right"></i>
+					</li>
+					<li>
+						<a href="@Url.Action("Index", "Awards")">Awards</a>
+						<i class="fa fa-angle-right"></i>
+					</li>
+					<li>
+						<a href="@Url.Action("Index", "Awards")"> Edit an Awards</a>
+					</li>
+				</ul>
+			
+			</div>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN PAGE CONTENT-->
+			<div class="row">
+				<div class="col-md-12">
+					<!-- BEGIN EXAMPLE TABLE PORTLET-->
+                    <div id="load"></div>
+					<div class="portlet box blue">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-edit"></i>Edit Award
+							</div>
+							<div class="tools">
+							</div>
+						</div>
+						<div class="portlet-body form">
+							<!------------------------ BEGIN FORM---------------------->
+							@using (Html.BeginForm("Edit", "Awards", new { id = Model.id}, FormMethod.Post, new { @class = "form-horizontal form-bordered", id = "personal_details_form" }))
+							{
+								<div class="form-body">
+									<div class="form-group">
+										<label class="col-md-2 control-label">
+											Award Name: <span class="required">
+												*
+											</span>
+										</label>
+										<div class="col-md-6">
+											<input type="text" class="form-control" name="award_name" placeholder="Award Name" value="@Model.award_name">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2 control-label">
+											Award Reason: <span class="required">
+												*
+											</span>
+										</label>
+										<div class="col-md-6">
+											<input type="text" class="form-control" name="award_reason" placeholder="Award Reason" value="@Model.award_reason">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2 control-label">Cash Price:  <span class="fa fa-usd"></span></label>
+
+										<div class="col-md-6">
+											<input type="text" class="form-control" name="award_cash_price" placeholder="Cash Price" value="@Model.award_cash_price">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2 control-label">Date:</label>
+										<div class="col-md-6">
+											@Html.TextBoxFor(m => m.award_date, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2 control-label">Employee name:</label>
+										<div class="col-md-6">
+											@Html.DropDownList("award_emp_id", null, htmlAttributes: new { @class = "form-control input-xlarge select2me col-xs-12" })
+										</div>
+									</div>
+									<div class="form-actions">
+										<div class="row">
+											<div class="col-md-offset-3 col-md-9">
+												<button type="submit" data-loading-text="Submitting..." class="demo-loading-btn btn green"><i class="fa fa-check"></i> Submit</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							}
+							
+					</div>
+					<!-- END EXAMPLE TABLE PORTLET-->
+				</div>
+			</div>
+			<!-- END PAGE CONTENT-->
+      </div>    
+</div>
+</div>
+
+
+
+
+
+
+
+
+@*@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Award</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.award_emp_id, "award_emp_id", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("award_emp_id", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.award_emp_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.award_name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.award_name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.award_name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.award_reason, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.award_reason, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.award_reason, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.award_cash_price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.award_cash_price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.award_cash_price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.award_date, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.award_date, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.award_date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

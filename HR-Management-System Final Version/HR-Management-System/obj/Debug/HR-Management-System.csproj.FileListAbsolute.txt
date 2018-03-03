@@ -1,0 +1,780 @@
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\WebGrease.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\P104\Desktop\HR-Management-System\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\WebGrease.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Samir\Desktop\HR-Management-System 20-02-2018 13-33\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR-Management-System 20-02-2018 17-10\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\EntityFramework.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\WebGrease.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\EntityFramework.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\P104\Desktop\HR-Management-System 21-02-2018 02-32\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\WebGrease.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 13-38\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\WebGrease.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Samir\Desktop\HR-Management-System 21-02-2018 14-43\HR-Management-System\obj\Debug\HR-Management-System.pdb
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\ApplicationInsights.config
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\HR-Management-System.dll.config
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\HR-Management-System.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\HR-Management-System.pdb
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Antlr3.Runtime.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\EntityFramework.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\EntityFramework.SqlServer.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.Web.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Newtonsoft.Json.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Helpers.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Mvc.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Optimization.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Razor.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.WebPages.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\WebGrease.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\EntityFramework.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\EntityFramework.SqlServer.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Helpers.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Mvc.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Optimization.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.Razor.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.WebPages.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Antlr3.Runtime.pdb
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Newtonsoft.Json.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\bin\Microsoft.AI.Web.xml
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\obj\Debug\HR-Management-System.dll
+D:\HR-Management-System 21-02-2018 18-10\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 22-02-2018 20-31 - Copy\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 25-02-2018 02-59 - Copy\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 26-02-2018 05-15 - Copy\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 27-02-2018 05-40 - Copy\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 28-02-2018 10-16 - Copy\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\EntityFramework.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\WebGrease.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\EntityFramework.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 09-31\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\EntityFramework.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\WebGrease.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\EntityFramework.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\QONAQ\Desktop\HR-Management-System 01-03-2018 18-26\HR-Management-System\obj\Debug\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\ApplicationInsights.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\HR-Management-System.dll.config
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\HR-Management-System.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Antlr3.Runtime.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\EntityFramework.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\EntityFramework.SqlServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.Web.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Helpers.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Mvc.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Optimization.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.WebPages.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\WebGrease.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\EntityFramework.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\EntityFramework.SqlServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Helpers.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Mvc.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Optimization.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.WebPages.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Antlr3.Runtime.pdb
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\bin\Microsoft.AI.Web.xml
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\obj\Debug\HR-Management-System.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\obj\Debug\HR-Management-System.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\obj\Debug\HR-Management-System.dll
+C:\Users\Gamer\Desktop\HR Management Versions\HR-Management-System 02-03-2018 18-49\HR-Management-System\obj\Debug\HR-Management-System.pdb

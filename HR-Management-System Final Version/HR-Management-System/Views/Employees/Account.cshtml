@@ -1,0 +1,337 @@
+﻿@model HR_Management_System.ViewModels.Site.EmployeeAccount
+@{
+	ViewBag.Title = "Account";
+	Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+<div class="col-md-9">
+	<div class="profile-body">
+		<div class="row margin-bottom-20">
+			<!--Profile Post-->
+			<div class="col-sm-6">
+				<div class="panel panel-profile no-bg">
+					<div class="panel-heading overflow-h">
+						<h2 class="panel-title heading-sm pull-left"><i class="fa fa-pencil"></i>Personal Details</h2>
+					</div>
+					<div class="panel-body panelHolder">
+						<table class="table table-light margin-bottom-0">
+							<tbody>
+								<tr>
+									<td>
+										<span class="primary-link">Name</span>
+									</td>
+									<td>
+										@Model.Employee.emp_fullname
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Father's Name</span>
+									</td>
+									<td>
+										@Model.Employee.emp_fathername
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Birth</span>
+									</td>
+									<td>
+										@Convert.ToDateTime(Model.Employee.emp_dateof_birth).ToShortDateString()
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Gender</span>
+									</td>
+									<td>
+										@Model.Employee.Gender.gender_name
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Email</span>
+									</td>
+									<td>
+										@Model.Employee.emp_email
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Phone</span>
+									</td>
+									<td>
+										@Model.Employee.emp_phone
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Address</span>
+									</td>
+									<td>
+										@Model.Employee.emp_address
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="panel panel-profile no-bg margin-top-20">
+					<div class="panel-heading overflow-h">
+						<h2 class="panel-title heading-sm pull-left"><i class="fa fa-briefcase"></i>Company Details</h2>
+					</div>
+					<div class="panel-body panelHolder">
+						<table class="table table-light margin-bottom-0">
+							<tbody>
+								<tr>
+									<td>
+										<span class="primary-link">Employee ID</span>
+									</td>
+									<td>
+										@Model.Employee.id
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Department</span>
+									</td>
+									<td>
+										@Model.Employee.Departament.depart_name
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Designation</span>
+									</td>
+									<td>
+										@Model.Employee.Designation.desig_name
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Date of Joining</span>
+									</td>
+									<td>
+										@Convert.ToDateTime(Model.Employee.emp_date_of_joining).ToShortDateString()
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="primary-link">Salary ( <strong class="color-green">$</strong> )</span>
+									</td>
+									<td>
+										<p>@Model.Employee.emp_salary <strong class="color-green">$</strong> </p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!--End Profile Post-->
+			<!--Notice Board -->
+			<div class="col-sm-6 md-margin-bottom-20">
+				<div class="panel panel-profile no-bg">
+					<div class="panel-heading overflow-h">
+						<h2 class="panel-title heading-sm pull-left"><i class="fa fa-bullhorn"></i>Notice Board</h2>
+						<br />
+						<h5 class="color-yellow">Notice (məktub) yazanda seçilən departamentdəki işçilərə mail gedir. :))</h5>
+						<h5 class="color-yellow">Ona görə bu hissəni yığmadım. :))</h5>
+					</div>
+					@*<div id="scrollbar2" class="panel-body contentHolder">
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>26</span>
+									<small>02, 2018</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(93);return false;">hihghjmmbm</a></h3>
+									<p>
+										<ol>
+											<li><strong><em>hjhjkhjkhkj</em></strong></li>
+										</ol>
+									</p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>21</span>
+									<small>02, 2018</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(92);return false;">safasfsafsafsafas</a></h3>
+									<p><p>safsasafsafsafsafa</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>14</span>
+									<small>02, 2018</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(91);return false;">hjgvhjghjgjghjghjghjghj</a></h3>
+									<p><p>ghfjghjgjghjghjghjghj</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>26</span>
+									<small>01, 2018</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(90);return false;">Daily Meeting </a></h3>
+									<p><p>Today meeting  6pm</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>03</span>
+									<small>03, 2017</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(31);return false;">Company Party</a></h3>
+									<p><p>Hi all,<br /><br />This evening we'll have a party. Don't forget to join. See ya!</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>02</span>
+									<small>03, 2017</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(30);return false;">Helo. Must listen!</a></h3>
+									<p><p>Hi. Please work faster! Don't be so lazy</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>27</span>
+									<small>07, 2016</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(4);return false;">Test Notice</a></h3>
+									<p><p>test Notice</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>26</span>
+									<small>07, 2016</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(3);return false;">Retrenchment Notice</a></h3>
+									<p><p>You will be sacked</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>26</span>
+									<small>07, 2016</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(2);return false;">Company Dinner</a></h3>
+									<p><p>hey all!! haaa</p></p>
+								</div>
+							</div>
+							<div class="profile-event">
+								<div class="date-formats">
+									<span>25</span>
+									<small>07, 2016</small>
+								</div>
+								<div class="overflow-h">
+									<h3 class="heading-xs"><a href="" data-toggle="modal" data-target=".show_notice" onclick="show_notice(1);return false;">This is test notice</a></h3>
+									<p><p>This is just a text notice</p></p>
+								</div>
+							</div>
+
+						</div>*@
+				</div>
+
+				<div class="panel panel-profile margin-top-20">
+					<div class="panel-heading overflow-h">
+						<h2 class="panel-title heading-sm pull-left"><i class="fa fa-send"></i> Holidays</h2>
+					</div>
+					<div id="scrollbar3" class="panel-body contentHolder">
+						@{
+							List<string> holidayColors = new List<string>()
+										{
+											"color-blue",
+											"color-red",
+											"color-green",
+											"color-yellow",
+											"color-dark"
+										};
+							List<string> holidayBoxColors = new List<string>()
+										{
+											"alert-blocks-info",
+											"alert-blocks-error",
+											"alert-blocks-success",
+											"alert-blocks-pending",
+											"alert-blocks-"
+										};
+							int ColorIndex = 0;
+							foreach (var item in Model.Holiday.OrderByDescending(h => h.holiday_date))
+							{
+								if (ColorIndex == holidayColors.Count)
+								{
+									ColorIndex = 0;
+								}
+								<div class="alert-blocks @holidayBoxColors[ColorIndex]">
+									<div class="overflow-h">
+										<strong class="@holidayColors[ColorIndex]">
+											@item.holiday_name
+											<small class="pull-right"><em>@Convert.ToDateTime(item.holiday_date).ToShortDateString()</em></small>
+										</strong>
+									</div>
+								</div>
+								ColorIndex++;
+							}
+						}
+					</div>
+				</div>
+
+				<div class="panel panel-profile margin-top-20">
+					<div class="panel-heading overflow-h">
+						<h2 class="panel-title heading-sm pull-left"><i class="fa fa-trophy"></i> Awards</h2>
+					</div>
+					<div id="scrollbar3" class="panel-body contentHolder">
+						@foreach (var item in Model.Employee.Awards.OrderByDescending(a => a.award_date))
+						{
+							<div class="alert-blocks">
+								<div class="overflow-h">
+									<strong class="color-dark">@item.award_name <small class="pull-right"><em>@Convert.ToDateTime(item.award_date).ToShortDateString()</em></small></strong>
+									<small class="award-name">@item.award_reason</small>
+								</div>
+							</div>
+						}
+					</div>
+				</div>
+			</div>
+			<!--End Profile Event-->
+
+		</div><!--/end row-->
+
+		<hr>
+
+		<!--Profile Blog-->
+		@*<div class="panel panel-profile">
+			<div class="panel-heading overflow-h">
+				<h2 class="panel-title heading-sm pull-left"><i class="fa fa-tasks"></i>Attendance</h2>
+			</div>
+			<div class="panel-body panelHolder">
+
+				<div class="alert-blocks alert-blocks-info">
+					<div class="overflow-h">
+						<strong class="color-dark">Last absent <small class="pull-right"><em>02-Mar-2018</em></small></strong>
+						<small class="award-name">-4 day ago</small>
+					</div>
+				</div>
+
+				<div id='calendar'></div>
+
+			</div>
+		</div>*@<!--/end row-->
+		<!--End Profile Blog-->
+
+	</div>
+</div>

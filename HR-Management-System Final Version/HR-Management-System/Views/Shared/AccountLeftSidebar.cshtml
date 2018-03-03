@@ -1,0 +1,62 @@
+﻿<div class="col-md-3 md-margin-bottom-40">
+	<img src="~/Areas/Adminpanel/Uploads/@Model.Employee.emp_photo" class="img-responsive profile-img margin-bottom-20" style="border:1px solid #ddd;margin:0 auto" alt="ProfileImage">
+	<p>
+		<h3 style="text-align: center">@Model.Employee.emp_fullname</h3>
+		<h6 style="text-align: center">Designation: @Model.Employee.Designation.desig_name</h6>
+		<h6 style="text-align: center;background: rgb(235, 235, 235);padding: 10px;"><strong>At work for : @Model.CalcAtWork</ strong ></ h6 >
+	</p>
+	<hr>
+	<div class="service-block-v3 service-block-u">
+		<!-- STAT -->
+		<div class="row profile-stat">
+			<div class="col-md-4 col-sm-4 col-xs-6" data-toggle="tooltip" data-placement="bottom" title="February">
+				<div class="uppercase profile-stat-title">
+					7/10
+				</div>
+				<div class="uppercase profile-stat-text">
+					Attendance
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6" data-toggle="tooltip" data-placement="bottom" title="Total Leaves">
+				<div class="uppercase profile-stat-title">
+					25/224
+				</div>
+				<div class="uppercase profile-stat-text">
+					Leave
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6" data-toggle="tooltip" data-placement="bottom" title="Total Award Won">
+				<div class="uppercase profile-stat-title">
+					@Model.Employee.Awards.Count
+				</div>
+				<div class="uppercase profile-stat-text">
+					Awards
+				</div>
+			</div>
+		</div>
+		<!-- END STAT -->
+	</div>
+
+
+	<!--Notification-->
+	<div class="panel-heading-v2 overflow-h">
+		<h2 class="heading-xs pull-left"><i class="fa fa-birthday-cake"></i> Birthdays in this and next month</h2>
+	</div>
+	<ul id="scrollbar5" class="list-unstyled contentHolder margin-bottom-20" style="height: auto">
+		@foreach (var item in Model.UserBirthdays)
+		{
+			<li class="notification">
+				<img src="~/Areas/Adminpanel/Uploads/@item.ProfileImage" class="rounded-x" alt="ProfileImage">
+
+				<div class="overflow-h">
+					<span><strong>@item.Fullname</strong> has birthday on</span>
+					<strong>@item.DayOfBirthdate  @item.BirthMonth</strong>
+				</div>
+			</li>
+		}
+	</ul>
+	<!--End Notification-->
+
+
+	<div class="margin-bottom-50"></div>
+</div>

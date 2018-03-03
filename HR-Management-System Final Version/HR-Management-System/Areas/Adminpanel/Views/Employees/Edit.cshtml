@@ -1,0 +1,626 @@
+﻿@model HR_Management_System.Models.Employee
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Adminpanel/Views/Shared/_AdminLayout.cshtml";
+}
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-datepicker/css/datepicker3.css">
+
+<div class="page-content-wrapper">
+    <div class="page-content">
+        <!-- BEGIN PAGE HEADER-->
+        <h3 class="page-title" xmlns="http://www.w3.org/1999/html">
+            Employee Details
+        </h3>
+        <div class="page-bar">
+            <ul class="page-breadcrumb">
+                <li>
+                    <i class="fa fa-home"></i>
+                    <a href="@Url.Action("Index","Home")">Home</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index","Employees")">Employees</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index","Employees")">Edit Employee </a>
+                </li>
+            </ul>
+        </div>
+        <!-- END PAGE HEADER-->
+        <div class="clearfix">
+        </div>
+        @using (Html.BeginForm("Edit", "Employees", FormMethod.Post, new { @class = "form-horizontal", id = "personal_details_form", @enctype = "multipart/form-data"}))
+        {
+             <div class="row ">
+                <div class="col-md-6 col-sm-6">
+                    <div class="portlet box purple-wisteria">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class="fa fa-calendar"></i>Personal Details
+                            </div>
+                            <div class="actions">
+                                <button onclick="$('#personal_details_form').submit()" class="btn btn-sm btn-default">Save</button>
+                            </div>
+                        </div>
+
+
+                        <div class="portlet-body">
+                                <div class="form-body">
+                                    <div class="form-group ">
+                                        <label class="control-label col-md-3">Photo</label>
+                                        <div class="col-md-9">
+                                            <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
+                                                    <img src="~/Areas/Adminpanel/Uploads/@Model.emp_photo" alt="ProfileImage">
+                                                    <input type="hidden" name="hiddenImage" value="default.jpg">
+                                                </div>
+                                                <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;">
+                                                </div>
+                                                <div>
+                                                    <span class="btn default btn-file">
+                                                        <span class="fileinput-new">
+                                                            Select image
+                                                        </span>
+                                                        <span class="fileinput-exists">
+                                                            Change
+                                                        </span>
+                                                        <input type="file" name="emp_photo">
+                                                    </span>
+                                                    <a href="#" class="btn red fileinput-exists" data-dismiss="fileinput">
+                                                        Remove
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="clearfix margin-top-10">
+                                                <span class="label label-danger">
+                                                    NOTE!
+                                                </span> Image Size must be (872px by 724px) (olada biler)
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Name<span class="required">* </span></label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="emp_fullname" class="form-control" value="@Model.emp_fullname">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Father's Name</label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="emp_fathername" class="form-control" value="@Model.emp_fathername">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Date of Birth</label>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                                                @Html.TextBoxFor(m => m.emp_dateof_birth, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                                                <span class="input-group-btn">
+                                                    <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Gender</label>
+                                        <div class="col-md-9">
+                                            @Html.DropDownList("emp_gender_id", null, htmlAttributes: new { @class = "form-control" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Phone</label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="emp_phone" class="form-control" value="@Model.emp_phone">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Address</label>
+                                        <div class="col-md-9">
+                                            <textarea name="emp_address" class="form-control" rows="3">@Model.emp_address</textarea>
+                                        </div>
+                                    </div>
+                                    <h4><strong>Account Login</strong></h4>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Email<span class="required">* </span></label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="emp_email" class="form-control" value="@Model.emp_email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Password</label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="emp_password" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="portlet box red-sunglo">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class="fa fa-calendar"></i>Company Details
+                            </div>
+                            <div class="actions">
+                                <button onclick="$('#personal_details_form').submit()" class="btn btn-sm btn-default">Save</button>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div id="alert_company">
+                                </div>
+
+                                <div class="form-body">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Employee ID<span class="required">* </span></label>
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control" readonly value="@Model.id">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Department<span class="required">* </span></label>
+                                        <div class="col-md-9">
+                                            @Html.DropDownList("emp_dep_id", null, htmlAttributes: new { @class = "form-control select2me", id = "department", onchange = "dept(this.value);return false;" })
+                                            @Html.ValidationMessageFor(model => model.emp_dep_id, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Designation<span class="required">* </span></label>
+                                        <div class="col-md-9">
+
+                                            <select class="select2me form-control" name="emp_desig_id" id="designation"></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Salary<span class="required">* </span></label>
+                                        <div class="col-md-9">
+                                            <input type="text" name="emp_salary" class="form-control" value="@Model.emp_salary">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Date of Joining</label>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                                                @Html.TextBoxFor(m => m.emp_date_of_joining, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                                                <span class="input-group-btn">
+                                                    <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Exit Date</label>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                                                @Html.TextBoxFor(m => m.emp_exit_date, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", value = "@Model.emp_exit_date" })
+                                                <span class="input-group-btn">
+                                                    <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Status</label>
+                                        <div class="col-md-3">
+                                            @Html.CheckBox("emp_work_status", Model.emp_work_status.ToString() == "True" ? true : false)
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="row ">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="portlet box purple-wisteria">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <i class="fa fa-calendar"></i>Documents
+                                </div>
+                                <div class="actions">
+                                    <button onclick="$('#personal_details_form').submit()" class="btn btn-sm btn-default">Save</button>
+                                </div>
+                            </div>
+                            <div class="portlet-body">
+                                <div class="portlet-body">
+                                    <div class="form-body">
+                                            <div class="form-group">
+                                                <label class="control-label col-md-2">Resume</label>
+                                                <div class="col-md-5">
+                                                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                        <div class="input-group input-large">
+                                                            <div class="form-control uneditable-input" data-trigger="fileinput">
+                                                                <i class="fa fa-file fileinput-exists"></i>&nbsp; <span class="fileinput-filename">
+                                                                </span>
+                                                            </div>
+                                                            <span class="input-group-addon btn default btn-file">
+                                                                <span class="fileinput-new">
+                                                                    Select file
+                                                                </span>
+                                                                <span class="fileinput-exists">
+                                                                    Change
+                                                                </span>
+                                                                @Html.EditorFor(model => model.emp_resume, new { htmlAttributes = new { type = "file", @accept = "image/x-png, image/gif, image/jpeg" } })
+                                                            </span>
+                                                            <a href="#" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput">
+                                                                Remove
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-2">Offer Letter</label>
+                                                <div class="col-md-5">
+                                                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                        <div class="input-group input-large">
+                                                            <div class="form-control uneditable-input" data-trigger="fileinput">
+                                                                <i class="fa fa-file fileinput-exists"></i>&nbsp; <span class="fileinput-filename">
+                                                                </span>
+                                                            </div>
+                                                            <span class="input-group-addon btn default btn-file">
+                                                                <span class="fileinput-new">
+                                                                    Select file
+                                                                </span>
+                                                                <span class="fileinput-exists">
+                                                                    Change
+                                                                </span>
+                                                                @Html.EditorFor(model => model.emp_offer_letter, new { htmlAttributes = new { type = "file", @accept = "image/x-png, image/gif, image/jpeg" } })
+                                                            </span>
+                                                            <a href="#" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput">
+                                                                Remove
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-2">Joining Letter</label>
+                                                <div class="col-md-5">
+                                                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                        <div class="input-group input-large">
+                                                            <div class="form-control uneditable-input" data-trigger="fileinput">
+                                                                <i class="fa fa-file fileinput-exists"></i>&nbsp; <span class="fileinput-filename">
+                                                                </span>
+                                                            </div>
+                                                            <span class="input-group-addon btn default btn-file">
+                                                                <span class="fileinput-new">
+                                                                    Select file
+                                                                </span>
+                                                                <span class="fileinput-exists">
+                                                                    Change
+                                                                </span>
+                                                                @Html.EditorFor(model => model.emp_joining_letter, new { htmlAttributes = new { type = "file", @accept = "image/x-png, image/gif, image/jpeg" } })
+                                                            </span>
+                                                            <a href="#" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput">
+                                                                Remove
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-2">Contract and Agreement</label>
+                                                <div class="col-md-5">
+                                                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                        <div class="input-group input-large">
+                                                            <div class="form-control uneditable-input" data-trigger="fileinput">
+                                                                <i class="fa fa-file fileinput-exists"></i>&nbsp; <span class="fileinput-filename">
+                                                                </span>
+                                                            </div>
+                                                            <span class="input-group-addon btn default btn-file">
+                                                                <span class="fileinput-new">
+                                                                    Select file
+                                                                </span>
+                                                                <span class="fileinput-exists">
+                                                                    Change
+                                                                </span>
+                                                                @Html.EditorFor(model => model.emp_contact_and_argue, new { htmlAttributes = new { type = "file", @accept = "image/x-png, image/gif, image/jpeg" } })
+                                                            </span>
+                                                            <a href="#" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput">
+                                                                Remove
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-2">ID Proof</label>
+                                                <div class="col-md-5">
+                                                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                        <div class="input-group input-large">
+                                                            <div class="form-control uneditable-input" data-trigger="fileinput">
+                                                                <i class="fa fa-file fileinput-exists"></i>&nbsp; <span class="fileinput-filename">
+                                                                </span>
+                                                            </div>
+                                                            <span class="input-group-addon btn default btn-file">
+                                                                <span class="fileinput-new">
+                                                                    Select file
+                                                                </span>
+                                                                <span class="fileinput-exists">
+                                                                    Change
+                                                                </span>
+                                                                @Html.EditorFor(model => model.emp_ID_proof, new { htmlAttributes = new { type = "file", @accept = "image/x-png, image/gif, image/jpeg" } })
+                                                            </span>
+                                                            <a href="#" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput">
+                                                                Remove
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                </div>
+
+                <div id="deleteModal" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title">Confirmation</h4>
+                            </div>
+                            <div class="modal-body" id="info">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-dismiss="modal" class="btn default">Cancel</button>
+                                <button type="button" data-dismiss="modal" class="btn red" id="delete"><i class="fa fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        }
+        
+
+
+
+    </div>
+
+</div>
+<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js"></script>
+
+<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
+<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+<script src="http://froiden.cloudapp.net/hrm_demo/assets/admin/pages/scripts/components-pickers.js"></script>
+<script>
+	$(document).ready(function (){
+        dept($("#department").val());
+	});
+	function dept(id){
+		var url = "@Url.Action("GetDesignationForDropDown", "Employees", new { Id="-1"})";
+		url = url.replace("-1", id);
+
+		$.ajax({
+			method: "POST",
+			dataType: 'json',
+			url: url
+		}).done(function (response) {
+			var dropdown = $('#designation');
+			var bool = true;
+			$("#select2-chosen-2").text("");
+			dropdown.empty();
+			$.each(response, function (index, element) {
+				if (bool) {
+					$("#select2-chosen-2").text(element.desig_name);
+				}
+				dropdown.append("<option value='" + element.id + "'>" + element.desig_name + "</option>");
+				bool = false;
+			});
+
+		});
+	}
+</script>
+
+@*@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Employee</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_fullname, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_fullname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_fullname, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_fathername, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_fathername, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_fathername, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_dateof_birth, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_dateof_birth, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_dateof_birth, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_gender_id, "emp_gender_id", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("emp_gender_id", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.emp_gender_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_phone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_phone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_phone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_photo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_photo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_photo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_dep_id, "emp_dep_id", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("emp_dep_id", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.emp_dep_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_desig_id, "emp_desig_id", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("emp_desig_id", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.emp_desig_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_date_of_joining, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_date_of_joining, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_date_of_joining, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_exit_date, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_exit_date, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_exit_date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_work_status, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.emp_work_status)
+                    @Html.ValidationMessageFor(model => model.emp_work_status, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_salary, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_salary, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_salary, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_resume, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_resume, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_resume, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_offer_letter, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_offer_letter, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_offer_letter, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_joining_letter, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_joining_letter, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_joining_letter, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_contact_and_argue, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_contact_and_argue, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_contact_and_argue, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.emp_ID_proof, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.emp_ID_proof, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.emp_ID_proof, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

@@ -1,0 +1,1947 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+
+<meta charset="utf-8" />
+<title>HRM - Dashboard</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/font-awesome/css/font-awesome.min.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/simple-line-icons/simple-line-icons.min.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap/css/bootstrap.min.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/uniform/css/uniform.default.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css">
+
+
+
+<!-- BEGIN PAGE LEVEL STYLES -->
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css">
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/select2/select2.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/jquery-multi-select/css/multi-select.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/fullcalendar/fullcalendar.min.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/select2/select2.css">
+
+<!-- BEGIN THEME STYLES -->
+
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/css/components.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/css/plugins.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/css/layout.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/css/themes/darkblue.css">
+
+<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/css/custom.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<body class="page-header-fixed page-quick-sidebar-over-content page-style-square">
+
+	<!-- BEGIN HEADER -->
+	<div class="page-header navbar navbar-fixed-top">
+		<!-- BEGIN HEADER INNER -->
+		<div class="page-header-inner">
+			<!-- BEGIN LOGO -->
+			<div class="page-logo">
+				<a href="@Url.Action("Index", "Home")">
+					<img src="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/img/logo.png" class="logo-default" height="22px" width="86px" alt="Logo">
+				</a>
+				<div class="menu-toggler sidebar-toggler hide">
+					<!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
+				</div>
+			</div>
+			<!-- END LOGO -->
+			<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+			<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+			</a>
+			<!-- END RESPONSIVE MENU TOGGLER -->
+			<!-- BEGIN TOP NAVIGATION MENU -->
+			<div class="top-menu">
+				<ul class="nav navbar-nav pull-right">
+
+
+					<li class="dropdown dropdown-user">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<img src="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/img/avatar3_small.jpg" class="img-circle" alt="small image">
+
+							<span class="username username-hide-on-mobile">
+								Samir Kerimov
+							</span>
+							<i class="fa fa-angle-down"></i>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-default">
+							<li>
+								<a href="@Url.Action("Index","Login")">
+									<i class="icon-logout"></i> Log Out
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!-- END USER LOGIN DROPDOWN -->
+
+				</ul>
+			</div>
+			<!-- END TOP NAVIGATION MENU -->
+		</div>
+		<!-- END HEADER INNER -->
+	</div>
+	<!-- END HEADER -->
+
+
+
+	<form method="POST" action="http://froiden.cloudapp.net/hrm_demo" accept-charset="UTF-8" id="edit_form_leave">
+		<input name="_method" type="hidden" value="PATCH"><input name="_token" type="hidden" value="f91t1e6JbIpvridfOOwyBOIkrzLAeQK7uXbqo9um">
+		<div id="static_leave_requests" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+						<span class="caption-subject font-red-sunglo bold uppercase">Leave Application</span>
+					</div>
+					<div class="modal-body" id="modal-data-leave">
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</form>
+
+	<script>
+		function show_application_notification(id) {
+			$("#modal-data-leave").html('<div class="text-center"><img src="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/img/loading-spinner-blue.gif"></div>');
+			$('#edit_form_leave').attr('action', "http://froiden.cloudapp.net/hrm_demo/admin/leave_applications/" + id + "");
+			$.ajax({
+				type: "GET",
+				url: "http://froiden.cloudapp.net/hrm_demo/admin/leave_applications/" + id + ""
+
+			}).done(function (response) {
+				$('#modal-data-leave').html(response);
+				//
+			});
+		}
+	</script>
+
+	<div class="clearfix">
+	</div>
+
+	<!-- BEGIN CONTAINER -->
+	<div class="page-container">
+
+		<!-- BEGIN SIDEBAR -->
+		<div class="page-sidebar-wrapper">
+			<div class="page-sidebar navbar-collapse collapse">
+				<!-- BEGIN SIDEBAR MENU -->
+				<!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+				<!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+				<!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+				<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+				<!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+				<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+				<ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+					<!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+					<li class="sidebar-toggler-wrapper">
+						<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+						<div class="sidebar-toggler">
+						</div>
+						<!-- END SIDEBAR TOGGLER BUTTON -->
+					</li>
+					<li class="start active">
+						<a href="@Url.Action("Index", "Home")">
+							<i class="fa fa-home"></i>
+							<span class="title">Dashboard</span>
+							<span class="selected"></span>
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="fa fa-briefcase"></i>
+							<span class="title">Department</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Index", "Departaments")">
+									<i class="fa fa-briefcase"></i>
+									Department List
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="">
+						<a href="javascript:;">
+							<i class="fa fa-users"></i>
+							<span class="title">Employees</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Index", "Employees")">
+									<i class="fa fa-users"></i>
+									Employees List
+								</a>
+							</li>
+						</ul>
+					</li>
+
+
+					<li class="">
+						<a href="javascript:;">
+							<i class="fa fa-trophy"></i>
+							<span class="title">Award</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Index", "Awards")">
+									<i class="fa fa-gift"></i>
+									Award List
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="">
+						<a href="javascript:;">
+							<i class="fa fa-trophy"></i>
+							<span class="title">Salary</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Index", "Salary")">
+									<i class="fa fa-gift"></i>
+									Salary List
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="javascript:;">
+							<i class="fa fa-send"></i>
+							<span class="title">Holidays</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Index", "Holidays")">
+									<i class="fa  fa-calendar"></i>
+									Holiday List
+								</a>
+							</li>
+						</ul>
+					</li>
+
+
+					<li class="">
+						<a href="javascript:;">
+							<i class="fa fa-user"></i>
+							<span class="title">Attendance</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Create", "Attendences")">
+									<i class="fa  fa-check"></i>
+									Mark Attendance
+								</a>
+							</li>
+							<li class="">
+								<a href="@Url.Action("Index", "Attendences")">
+									<i class="fa  fa-eye"></i>
+									View Attendance
+								</a>
+							</li>
+						</ul>
+					</li>
+
+
+					<li class="">
+						<a href="javascript:;">
+							<i class="fa fa-rocket"></i>
+							<span class="title">Leave Applications</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Index", "LeaveApp")">
+									<i class="fa fa-rocket"></i>
+									Application List
+								</a>
+							</li>
+						</ul>
+					</li>
+
+
+
+					<li class="">
+						<a href="javascript:;">
+							<i class="fa fa-clipboard"></i>
+							<span class="title">Notice Board</span>
+							<span class="arrow "></span>
+						</a>
+						<ul class="sub-menu">
+							<li class="">
+								<a href="@Url.Action("Index", "Notice")">
+									<i class="fa fa-clipboard"></i>
+									Notice Board
+								</a>
+							</li>
+						</ul>
+					</li>
+
+
+
+
+
+				</ul>
+				<!-- END SIDEBAR MENU -->
+			</div>
+		</div>
+		<!-- END SIDEBAR -->
+		<!-- BEGIN CONTENT -->
+		@RenderBody()
+		<!-- END CONTENT -->
+
+	</div>
+	<!-- END CONTAINER -->
+	<!-- BEGIN FOOTER -->
+	<div class="page-footer">
+		<div class="page-footer-inner">
+			2018 &copy; HRM
+		</div>
+		<div class="scroll-to-top">
+			<i class="icon-arrow-up"></i>
+		</div>
+	</div>
+	<!-- END FOOTER -->
+	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+	<!-- BEGIN CORE PLUGINS -->
+	<!--[if lt IE 9]>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/respond.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/excanvas.min.js"></script>
+
+
+	<![endif]-->
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/jquery.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/scripts/metronic.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/scripts/layout.js"></script>
+
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-63125039-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+
+	<!-- END PAGE LEVEL SCRIPTS -->
+	<script>
+		jQuery(document).ready(function () {
+			Metronic.init(); // init metronic core componets
+			Layout.init(); // init layout
+			TableManaged.init();
+			$('.demo-loading-btn')
+				.click(function () {
+					var btn = $(this)
+					btn.button('loading')
+					setTimeout(function () {
+						btn.button('reset')
+					}, 8000)
+				});
+			$('.demo-loading-btn-ajax')
+				.click(function () {
+					var btn = $(this)
+					btn.button('loading')
+					setTimeout(function () {
+						btn.button('reset')
+					}, 500)
+				});
+
+
+		});
+
+		function ToggleEmailNotification(type) {
+			if ($('[name=' + type + ']').is(':checked')) {
+				var value = 1;
+			}
+			else {
+				var value = 0;
+			}
+			$('#load_notification').html('<img src="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/img/loading-spinner-blue.gif">');
+
+
+			$.ajax({
+				type: 'POST',
+				url: "http://froiden.cloudapp.net/hrm_demo/admin/ajax_update_notification",
+				dataType: "JSON",
+				data: {
+					'value': value, 'id': '1', 'type': type
+				},
+				success: function (response) {
+					if (response.success == 'success') {
+						$('#load_notification').html('');
+					}
+				},
+				error: function (xhr, textStatus, thrownError) {
+					alert('Data Fetching error');
+				}
+			});
+
+		}
+	</script>
+
+
+
+	<!-- BEGIN PAGE LEVEL PLUGINS -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/select2/select2.min.js"></script>
+
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/admin/pages/scripts/components-dropdowns.js"></script>
+
+
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/admin/pages/scripts/ui-blockui.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/moment.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+	<script>
+		jQuery(document).ready(function () {
+
+			Calendar.init();
+			//   showReport();
+			UIBlockUI.init();
+			ComponentsDropdowns.init();
+		});
+
+
+		var Calendar = function () {
+
+
+			return {
+				//main function to initiate the module
+				init: function () {
+					Calendar.initCalendar();
+
+
+				},
+
+				initCalendar: function () {
+
+					if (!jQuery().fullCalendar) {
+						return;
+					}
+
+					var date = new Date();
+					var d = date.getDate();
+					var m = date.getMonth();
+					var y = date.getFullYear();
+
+					var h = {};
+
+
+					if ($('#calendar').parents(".portlet").width() <= 720) {
+						$('#calendar').addClass("mobile");
+						h = {
+							left: 'title, prev, next',
+							center: '',
+							right: 'today,month'
+						};
+					} else {
+						$('#calendar').removeClass("mobile");
+						h = {
+							left: 'title',
+							center: '',
+							right: 'prev,next,today'
+						};
+					}
+
+					$('#calendar').fullCalendar('destroy'); // destroy the calendar
+					$('#calendar').fullCalendar({ //re-initialize the calendar
+						header: h,
+						defaultView: 'month',
+						eventRender: function (event, element) {
+							if (event.className == "holiday") {
+								var dataToFind = moment(event.start).format('YYYY-MM-DD');
+								$('.fc-day[data-date="' + dataToFind + '"]').css('background', 'rgba(255, 224, 205, 1)');
+							}
+						},
+						events: [
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-01-03',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-01-10',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-01-17',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-01-24',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-01-31',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-02-07',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-02-14',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-02-21',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-02-28',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-03-06',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2016-03-13',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-01-07',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-01-14',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-01-21',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-01-28',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-02-04',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-02-11',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-02-18',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-02-25',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-03-04',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-03-11',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-03-18',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-03-25',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-04-01',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-04-08',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-04-15',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-04-22',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-04-29',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-05-06',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-05-13',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-05-20',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-05-27',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-06-03',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-06-10',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-06-17',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-06-24',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-07-01',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-07-08',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-07-15',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-07-22',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-07-29',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-08-05',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-08-12',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-08-19',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-08-26',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-09-02',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-09-09',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-09-16',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-09-23',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-09-30',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-10-07',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-10-14',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-10-21',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-10-28',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-11-04',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-11-11',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-11-18',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-11-25',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-12-02',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-12-09',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-12-16',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-12-23',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-12-30',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "sunday",
+								start: '2018-01-04',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Test",
+								start: '2018-01-26',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Ghhhh",
+								start: '2018-01-02',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "Sunday",
+								start: '2018-01-31',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "test",
+								start: '2018-02-13',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "ggg",
+								start: '2018-02-08',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "",
+								start: '2018-02-15',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "ddd",
+								start: '2018-02-14',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "",
+								start: '2018-02-16',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "",
+								start: '2018-02-01',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "",
+								start: '2018-03-03',
+
+								color: 'grey'
+
+							},
+
+							{
+								className: "holiday",
+								title: "",
+								start: '2018-02-24',
+
+								color: 'grey'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-01-20',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '2018-01-20',
+								color: '#e50000'
+
+							},
+							{
+								title: "Adnan",
+								start: '2018-01-20',
+								color: '#e50000'
+
+							},
+							{
+								title: "Ethyl",
+								start: '2018-01-20',
+								color: '#e50000'
+
+							},
+							{
+								title: "Tyshawn",
+								start: '2018-01-20',
+								color: '#e50000'
+
+							},
+							{
+								title: "Jairo",
+								start: '2018-01-20',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-01',
+								color: '#e50000'
+
+							},
+							{
+								title: "Antonio",
+								start: '2018-02-01',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-01-22',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '2018-01-22',
+								color: '#e50000'
+
+							},
+							{
+								title: "Garth",
+								start: '2018-01-22',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Ethyl",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Mariela",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Jaron",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Marion",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Garth",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Eino",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Pablo",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Antonio",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Adnan",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Ethyl",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Tyshawn",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Jairo",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Cara",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Garth",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Gladys",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Trevion",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Zackery",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Aleen",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Mariela",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Jaron",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Eino",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Marion",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Cleora",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Karli",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Charity",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "غسان",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Pablo",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Anton",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Antonio",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Adnan",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Ethyl",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Tyshawn",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Jairo",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Cara",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Garth",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Gladys",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Trevion",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Zackery",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Aleen",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Mariela",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Jaron",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Eino",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Marion",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Cleora",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Karli",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Charity",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "غسان",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Pablo",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+							{
+								title: "Anton",
+								start: '0000-00-00',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-01-23',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-01-24',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Adnan",
+								start: '2018-01-26',
+								color: '#e50000'
+
+							},
+							{
+								title: "Ethyl",
+								start: '2018-01-26',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-01-29',
+								color: '#e50000'
+
+							},
+							{
+								title: "Charity",
+								start: '2018-01-29',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-01-30',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '2018-01-30',
+								color: '#e50000'
+
+							},
+							{
+								title: "Adnan",
+								start: '2018-01-30',
+								color: '#e50000'
+
+							},
+							{
+								title: "Trevion",
+								start: '2018-01-30',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-14',
+								color: '#e50000'
+
+							},
+							{
+								title: "Antonio",
+								start: '2018-02-14',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-01-31',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Adnan",
+								start: '2018-02-06',
+								color: '#e50000'
+
+							},
+							{
+								title: "Ethyl",
+								start: '2018-02-06',
+								color: '#e50000'
+
+							},
+							{
+								title: "Tyshawn",
+								start: '2018-02-06',
+								color: '#e50000'
+
+							},
+							{
+								title: "Jairo",
+								start: '2018-02-06',
+								color: '#e50000'
+
+							},
+							{
+								title: "Cara",
+								start: '2018-02-06',
+								color: '#e50000'
+
+							},
+							{
+								title: "Garth",
+								start: '2018-02-06',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-07',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-08',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Eino",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+							{
+								title: "Marion",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+							{
+								title: "Cleora",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+							{
+								title: "Karli",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+							{
+								title: "Charity",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+							{
+								title: "غسان",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+							{
+								title: "Pablo",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+							{
+								title: "Anton",
+								start: '2018-02-05',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-17',
+								color: '#e50000'
+
+							},
+							{
+								title: "Mariela",
+								start: '2018-02-17',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: 'all present',
+								start: '2018-02-10'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-12',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-15',
+								color: '#e50000'
+
+							},
+							{
+								title: "Antonio",
+								start: '2018-02-15',
+								color: '#e50000'
+
+							},
+
+
+							{
+								title: "Antonio",
+								start: '2018-02-19',
+								color: '#e50000'
+
+							},
+							{
+								title: "Hj",
+								start: '2018-02-19',
+								color: '#e50000'
+
+							},
+
+
+						]
+					});
+				}
+			};
+		}();
+
+		$(function () {
+
+			$('#expenseChart').highcharts({
+				chart: {
+					type: 'column'
+				},
+				title: {
+					text: 'Monthly Expense Report ' + new Date().getFullYear()
+				},
+				xAxis: {
+					categories: [
+						'Jan',
+						'Feb',
+						'Mar',
+						'Apr',
+						'May',
+						'Jun',
+						'Jul',
+						'Aug',
+						'Sep',
+						'Oct',
+						'Nov',
+						'Dec'
+					],
+					crosshair: true
+				},
+				yAxis: {
+					min: 0,
+					title: {
+						useHTML: true,
+						text: 'Expense in ( <span class="fa fa-usd"></span> )'
+					}
+				},
+				tooltip: {
+					headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+					pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+					'<td style="padding:0"><b>{point.y:.1f} <span class="fa fa-usd"></span></b></td></tr>',
+					footerFormat: '</table>',
+					shared: true,
+					useHTML: true
+				},
+				plotOptions: {
+					column: {
+						pointPadding: 0.2,
+						borderWidth: 0
+					}
+				},
+				series: [{
+					name: 'Expense',
+					//            data: [42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8,'']
+					//            data: ['','',100]
+					data: ['', 180, '', '', '', '', '', '', '', '', '', '']
+
+				}]
+			});
+		});
+	</script>
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"></script>
+	<script src="http://froiden.cloudapp.net/hrm_demo/assets/admin/pages/scripts/table-managed.js"></script>
+
+	<script>
+		$('#leave_table').dataTable({
+			"bProcessing": false,
+			"bServerSide": false,
+			"aaSorting": [[1, "asc"]],
+			"aoColumns": [
+				{ 'sClass': 'center', "bSortable": true },
+				{ 'sClass': 'center', "bSortable": true },
+				{ 'sClass': 'center', "bSortable": true },
+				{ 'sClass': 'center', "bSortable": true },
+				{ 'sClass': 'center', "bSortable": true },
+				{ 'sClass': 'center', "bSortable": true },
+				{ 'sClass': 'center', "bSortable": true },
+				{ 'sClass': 'center', "bSortable": true }
+			],
+			"lengthMenu": [
+				[5, 15, 20, -1],
+				[5, 15, 20, "All"] // change per page values here
+			],
+			"sPaginationType": "full_numbers"
+
+		});
+	</script>
+
+	<!-- END PAGE LEVEL PLUGINS -->
+
+</body>
+<!-- END BODY -->
+</html>
+
+

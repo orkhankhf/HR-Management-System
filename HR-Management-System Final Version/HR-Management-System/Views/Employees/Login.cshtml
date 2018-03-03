@@ -1,0 +1,134 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<title>HRM | Login Page</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+
+	<!-- CSS Global Compulsory -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/bootstrap/css/bootstrap.min.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/style.css">
+
+
+	<!-- CSS Implementing Plugins -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/line-icons/line-icons.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/font-awesome/css/font-awesome.min.css">
+
+
+	<!-- CSS Page Style -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/pages/page_log_reg_v2.css">
+
+
+	<!-- CSS Theme -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/theme-colors/default.css">
+
+
+	<!-- CSS Customization -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/custom.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<!--=== Content Part ===-->
+	<div class="container">
+		<a style="color:#FFFFFF" href="@Url.Action("Index", "Login", new { Area = "Adminpanel" })">
+			<div class="btn-u" style="float: right">
+				<i class="fa fa-cog fa-spin"></i> Go to Admin Panel <i class="icon-arrow-right"></i>
+			</div>
+		</a>
+		<!--Reg Block-->
+		@using (Ajax.BeginForm("Login", "Employees", null, new AjaxOptions { HttpMethod = "POST", OnSuccess = "showResult", OnFailure = "showError" }, new { @class = "login-form" }))
+		{
+			<div class="reg-block">
+				<div class="reg-block-header">
+					<h2><img src="~/assets/img/logo2-default.png" /></h2>
+				</div>
+				<div id="alert"></div>
+				<div class="input-group margin-bottom-20">
+					<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+					<input type="email" class="form-control" name="emp_email" placeholder="Email">
+				</div>
+				<div class="input-group margin-bottom-20">
+					<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+					<input type="password" class="form-control" name="emp_password" placeholder="Password">
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<button type="submit" class="btn-u btn-block input-group" id="submitbutton" onclick="login()">Log In</button>
+					</div>
+				</div><hr>
+				<div class="input-group margin-bottom-20">
+					<p>Username:<strong>john@code.edu.az</strong></p>
+					<p>Password:<strong>123456</strong></p>
+				</div>
+			</div>
+		}
+		<script>
+			function showResult(data) {
+				if (data.errorMessage) {
+					$("#alert").html(data.errorMessage);
+				} else {
+					window.location.href = data.url;
+				}
+			}
+			function showError() {
+				alert("Sistemdə xəta baş verdi! Zəhmət olmasa Server, Məlumat bazası və sorğunun getdiyi faylı yoxlayın.")
+			}
+		</script>
+	</div><!--/container-->
+	<!--=== End Content Part ===-->
+	<!-- JS Global Compulsory -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/jquery/jquery.min.js"></script>
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- JS Implementing Plugins -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/back-to-top.js"></script>
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/backstretch/jquery.backstretch.min.js"></script>
+
+	<script type="text/javascript">
+		$.backstretch([
+			"http://froiden.cloudapp.net/hrm_demo/front_assets/img/bg/5.jpg",
+			"http://froiden.cloudapp.net/hrm_demo/front_assets/img/bg/4.jpg"
+
+		], {
+				fade: 1000,
+				duration: 7000
+			});
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/respond.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/html5shiv.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/js/plugins/placeholder-IE-fixes.js"></script>
+
+
+
+	<![endif]-->
+	<!-- JS Customization -->
+
+	<script>
+		function login() {
+			$('#alert').html('<div class="alert alert-info"><span class="fa fa-info"></span> Submitting</div>');
+		}
+	</script>
+</body>
+</html>
+@Scripts.Render("~/bundles/jquery-unobtrusive");

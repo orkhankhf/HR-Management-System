@@ -1,0 +1,51 @@
+﻿@model HR_Management_System.Models.Leave_App
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Adminpanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Leave_App</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.leave_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.leave_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.leave_reason)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.leave_reason)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.emp_fullname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.emp_fullname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Leave_status.status_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Leave_status.status_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

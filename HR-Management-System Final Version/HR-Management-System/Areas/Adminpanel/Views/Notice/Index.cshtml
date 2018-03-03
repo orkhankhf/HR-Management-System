@@ -1,0 +1,122 @@
+﻿@model IEnumerable < HR_Management_System.Models.Departament >
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Adminpanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-content-wrapper">
+    <div class="page-content">
+
+
+
+        <!-- BEGIN PAGE HEADER-->
+        <h3 class="page-title">
+            Notice Board
+        </h3>
+        <div class="page-bar">
+            <ul class="page-breadcrumb">
+                <li>
+                    <i class="fa fa-home"></i>
+                    <a href="@Url.Action("Index", "Home")">Home</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Notice")">Notice</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <a href="">New Notice</a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- END PAGE HEADER-->
+        <!-- BEGIN PAGE CONTENT-->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- BEGIN EXAMPLE TABLE PORTLET-->
+
+
+
+                <div class="portlet box blue">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="fa fa-plus"></i>New Notice
+                        </div>
+                        <div class="tools">
+                        </div>
+                    </div>
+
+                    <div class="portlet-body form">
+
+                        <!-- BEGIN FORM-->
+                        <form method="POST" action="@Url.Action("Index", "Notice")" accept-charset="UTF-8" class="form-horizontal form-bordered">
+                            <div class="form-body">
+
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">
+                                        Title: <span class="required">
+                                            *
+                                        </span>
+                                    </label>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" name="title" placeholder="Title" value="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">
+                                        Description: <span class="required">
+                                            *
+                                        </span>
+                                    </label>
+                                    <div class="col-md-6">
+                                        <textarea class="form-control" name="description"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label">
+                                        Departament: <span class="required">
+                                            *
+                                        </span>
+                                    </label>
+                                    <div class="col-md-6">
+                                        <select class="form-control" name="departament_id">
+                                            @foreach (var item in Model)
+                                            {
+                                                <option value="@item.id">@item.depart_name</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="row">
+                                        <div class="col-md-offset-3 col-md-9">
+
+                                            <button type="submit" class="demo-loading-btn btn green">
+                                                <i class="fa fa-plus"></i>	Submit
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+</form>
+                        <!-- END FORM-->
+
+                    </div>
+                </div>
+                <!-- END EXAMPLE TABLE PORTLET-->
+
+            </div>
+        </div>
+        <!-- END PAGE CONTENT-->
+
+
+
+
+    </div>
+
+</div>
+
+<script src="http://froiden.cloudapp.net/hrm_demo/assets/global/plugins/tinymce/tinymce.min.js"></script>

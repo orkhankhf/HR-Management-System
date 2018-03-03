@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="007a98a90b7a4c65aec136b2ac5ac86d" Name="Diagram1">
+        <EntityTypeShape EntityType="HRM_databaseModel.Admin" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Attendence" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Award" Width="1.5" PointX="7.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Departament" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Designation" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Employee" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Gender" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Holiday" Width="1.5" PointX="2.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Leave_App" Width="1.5" PointX="10.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Leave_status" Width="1.5" PointX="8.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Leave_type" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRM_databaseModel.Notice_Board" Width="1.5" PointX="4.75" PointY="10.625" IsExpanded="true" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Attendence_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Attendence_Leave_type" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Award_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Designation_Designation" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Employee_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Employee_Designation" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Employee_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Leave_App_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="HRM_databaseModel.FK_Leave_App_Leave_status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

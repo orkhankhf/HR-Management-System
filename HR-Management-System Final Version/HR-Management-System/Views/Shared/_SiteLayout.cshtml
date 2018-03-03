@@ -1,0 +1,1334 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+ <!--<![endif]-->
+<head>
+	<title>HRM - Dashboard </title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+
+
+	<!-- CSS Global Compulsory -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/bootstrap/css/bootstrap.min.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/style.css">
+
+	<!-- CSS Implementing Plugins -->
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/font-awesome/css/font-awesome.min.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/sky-forms/version-2.0.1/css/custom-sky-forms.css">
+
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/scrollbar/src/perfect-scrollbar.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/fullcalendar/fullcalendar.css">
+
+	<link media="print" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/fullcalendar/fullcalendar.print.css">
+
+
+
+	<!-- CSS Page Style -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/pages/profile.css">
+
+
+
+
+	<!-- CSS Theme -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/theme-colors/default.css">
+
+
+	<!-- CSS Customization -->
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/front_assets/css/custom.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/css/components.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="http://froiden.cloudapp.net/hrm_demo/assets/global/css/plugins.css">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<!--=== Header ===-->
+		<div class="header">
+			<!-- Navbar -->
+			<div class="navbar navbar-default mega-menu" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="fa fa-bars"></span>
+						</button>
+						<a class="navbar-brand" href="http://froiden.cloudapp.net/hrm_demo/dashboard">
+							<img src="http://froiden.cloudapp.net/hrm_demo/assets/admin/layout/img/logo.png" class="logo-default" id="logo-header" height="22px" width="86px" alt="Logo">
+
+						</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+
+							<!-- Home -->
+							<li class="active">
+								<a href="@Url.Action("Account", "Employees")">
+									Home
+								</a>
+							</li>
+							<!-- End Home -->
+							<!-- Leave -->
+							<li class="dropdown ">
+								<a href="" href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Leave
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="" data-toggle="modal" data-target=".apply_modal">Apply Leave</a></li>
+									<li><a href="@Url.Action("MyLeaves", "Employees")">My Leave</a></li>
+
+								</ul>
+							</li>
+							<!-- End Leave -->
+							<!-- My Account -->
+							<li class="dropdown">
+								<a href="" href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									My Account
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="" data-toggle="modal" data-target=".change_password_modal" id="change_password_link">Change Password</a></li>
+									<!-- Logout -->
+									<li>
+										<a href="@Url.Action("Login", "Employees")">
+											Logout
+										</a>
+
+									</li>
+									<!-- End Logout -->
+
+								</ul>
+							</li>
+							<!-- End Leave -->
+
+						</ul>
+					</div><!--/navbar-collapse-->
+				</div>
+			</div>
+			<!-- End Navbar -->
+		</div>
+		<!--=== End Header ===-->
+		<!--=== Profile ===-->
+		<div class="profile container content">
+			<div class="row">
+				<!--Left Sidebar-->
+				@Html.Partial("AccountLeftSidebar")
+				<!--End Left Sidebar-->
+				<!--Profile Body-->
+				@RenderBody()
+				<!--End Profile Body-->
+
+
+
+
+
+
+				<div class="modal fade show_notice in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+								<h4 id="myLargeModalLabel" class="modal-title show-notice-title"></h4>
+							</div>
+							<div class="modal-body" id="show-notice-body">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+			</div><!--/end row-->
+
+
+		</div>
+		<!--=== End Profile ===-->
+		<!--=== Footer Version 1 ===-->
+		<div class="footer-v1">
+
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<p style="text-align: center;">
+								2018 &copy; HRM
+
+							</p>
+						</div>
+
+						<!-- Social Links -->
+						<div class="col-md-4">
+
+						</div>
+						<!-- End Social Links -->
+					</div>
+				</div>
+			</div><!--/copyright-->
+		</div>
+		<!--=== End Footer Version 1 ===-->
+
+
+
+		<div class="modal fade change_password_modal in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+						<h4 class="modal-title">
+							Change Password
+						</h4>
+					</div>
+					<div class="modal-body" id="change_password_modal_body">
+						<fieldset>
+							<section>
+								<div id="error"></div>
+							</section>
+							<section>
+								<div class="form-group">
+									<label for="password">New Password:</label>
+									<input type="password" class="form-control" id="password">
+								</div>
+							</section>
+
+							<section>
+								<div class="form-group">
+									<label for="password_confirmation">Confirm Password:</label>
+									<input type="password" class="form-control" id="password_confirmation">
+								</div>
+							</section>
+
+
+						</fieldset>
+						<footer>
+							<button type="submit" class="btn-u field" id="submitbutton" onclick="change_password();return false;">Change Password</button>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade apply_modal in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+						<h4 id="myLargeModalLabel" class="modal-title">
+							Apply Leave
+						</h4>
+					</div>
+					<div class="modal-body">
+						<div class="portlet-body form">
+							<div class="row">
+								<div id="leave_error"></div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<label class="input">
+										<i class="icon-append fa fa-calendar"></i>
+										<input type="date" class="leave_date" placeholder="Leave date">
+									</label>
+								</div>
+								<div class="col-md-6">
+									<input class="form-control form-control-inline leave_reason" type="text" name="reason" placeholder="Reason" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-offset-4 col-md-8">
+									<button type="submit" class="btn-u btn-u-sea" onclick="create_leave_app()"><i class="fa fa-check"></i> Submit</button>
+								</div>
+							</div>
+							<!------------------------ END FORM ------------------------------------------>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--/wrapper-->
+	<!-- JS Global Compulsory -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/jquery/jquery.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/jquery/jquery-migrate.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+	<!-- JS Implementing Plugins -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/back-to-top.js"></script>
+
+
+	<!-- Scrollbar -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/scrollbar/src/jquery.mousewheel.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/scrollbar/src/perfect-scrollbar.js"></script>
+
+	<!-- JS Customization -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets//plugins/sky-forms/version-2.0.1/js/jquery-ui.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/sky-forms/version-2.0.1/js/jquery.form.min.js"></script>
+
+	<!-- JS Page Level -->
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/lib/moment.min.js"></script>
+
+	<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+	<script>
+
+// Show change password modal body
+
+		 function change_password()
+		 {
+			 if ($("#password_confirmation").val() == "" || $("#password").val() == "") {
+				 $('#error').html('<div class="alert alert-danger alert-dismissable">Password cannot be empty!</div>');
+			 }else if ($("#password_confirmation").val() == $("#password").val()) {
+				$('#error').html('<img src="http://froiden.cloudapp.net/hrm_demo/front_assets/img/loading-spinner-blue.gif">');
+				$('#error').attr('class','text-center');
+				$.ajax({
+					type:'POST',
+					url: "@Url.Action("ChangePassword", "Employees")",
+					dataType: 'json',
+					data: { new_password: $("#password_confirmation").val()}
+				}).done(function(response)
+				{
+					if(response.status=='success')
+					{
+						$('.field').hide();
+						$('#error').html('<div class="alert alert-success"><span class="fa fa-check"></span> '+response.msg+'</div>');
+						setTimeout(function () {
+							window.location.href = '@Url.Action("Login")';
+						}, 2000);
+
+					}else if(response.status == "error")
+					{
+
+						$('#error').html('<div class="alert alert-danger alert-dismissable">' + response.msg + '</div>');
+
+					}
+
+				});
+			 } else {
+				 $('#error').html('<div class="alert alert-danger alert-dismissable">Passwords should be same !</div>');
+			 }
+		 }
+		 function create_leave_app() {
+			 $.ajax({
+				type:'POST',
+				url: "@Url.Action("CreateLeaveApp", "Employees")",
+				dataType: 'json',
+				data: { leave_date: $(".leave_date").val(), leave_reason: $(".leave_reason").val()}
+			 }).done(function(response)
+			 {
+				if(response.status=='success')
+				{
+					$('#leave_error').html('<div class="alert alert-success"><span class="fa fa-check"></span> '+response.msg+'</div>');
+					setTimeout(function () {
+						$('.apply_modal').modal('hide');
+					}, 2000);
+
+				}else if(response.status == "error")
+				{
+					$('#leave_error').html('<div class="alert alert-danger alert-dismissable">' + response.msg + '</div>');
+
+				}
+
+			 });
+		 }
+	</script>
+
+	<script>
+		jQuery(document).ready(function ($) {
+			"use strict";
+			$('.contentHolder').perfectScrollbar();
+
+
+
+		});
+	</script>
+
+
+	<script>
+
+		$(document).ready(function () {
+
+			$('#calendar').fullCalendar({
+				//			defaultDate: '2014-11-12',
+				editable: false,
+				eventLimit: true, // allow "more" link when too many events
+				eventRender: function (event, element) {
+					if (event.className == "holiday") {
+						var dataToFind = moment(event.start).format('YYYY-MM-DD');
+						$('.fc-day[data-date="' + dataToFind + '"]').css('background', 'rgba(255, 224, 205, 1)');
+					}
+				},
+				events: [
+
+					{
+
+						title: "absent",
+						start: '2018-01-20',
+
+						color: '#e50000',
+						title: "absent-summer vacations",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-01',
+
+						color: '#e50000',
+						title: "absent-Sick Leave",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-01-22',
+
+						color: '#e50000',
+						title: "absent-summer vacations",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '0000-00-00',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "present",
+						start: '0000-00-00',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-01-23',
+
+						color: '#e50000',
+						title: "absent-summer vacations",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-01-24',
+
+						color: '#e50000',
+						title: "absent-Sick Leave",
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-01-26',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-01-29',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-01-30',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-14',
+
+						color: '#e50000',
+						title: "absent-Sick Leave",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-01',
+
+						color: '#e50000',
+						title: "absent-Sick Leave",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-01-31',
+
+						color: '#e50000',
+						title: "absent-Sick Leave",
+
+
+					},
+					{
+
+						title: "present",
+						start: '0000-00-00',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '0000-00-00',
+
+						color: '#e50000',
+						title: "absent-summer vacations",
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-02-06',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-07',
+
+						color: '#e50000',
+						title: "absent-Sick Leave",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-08',
+
+						color: '#e50000',
+						title: "absent-Maternity Leave",
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-02-05',
+
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-02-17',
+
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-02-10',
+
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-02-12',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-15',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "present",
+						start: '0000-00-00',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '0000-00-00',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-02-19',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-20',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-03-02',
+
+						color: '#e50000',
+						title: "absent-Annual",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-28',
+
+						color: '#e50000',
+						title: "absent-summer vacations",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-26',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "present",
+						start: '0000-00-00',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-22',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "present",
+						start: '2018-02-23',
+
+
+
+					},
+					{
+
+						title: "present",
+						start: '0000-00-00',
+
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-24',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-25',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-27',
+
+						color: '#e50000',
+						title: "absent-opi",
+
+
+					},
+					{
+
+						title: "absent",
+						start: '2018-02-27',
+
+						color: '#e50000',
+						title: "absent-Annual",
+
+
+					},
+
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-01-03',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-01-10',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-01-17',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-01-24',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-01-31',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-02-07',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-02-14',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-02-21',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-02-28',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-03-06',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2016-03-13',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Ghhhh",
+						start: '2018-01-02',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "sunday",
+						start: '2018-01-04',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-01-07',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-01-14',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-01-21',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Test",
+						start: '2018-01-26',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-01-28',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-01-31',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "",
+						start: '2018-02-01',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-02-04',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "ggg",
+						start: '2018-02-08',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-02-11',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "test",
+						start: '2018-02-13',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "ddd",
+						start: '2018-02-14',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "",
+						start: '2018-02-15',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "",
+						start: '2018-02-16',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-02-18',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "",
+						start: '2018-02-21',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "",
+						start: '2018-02-22',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "",
+						start: '2018-02-24',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-02-25',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "",
+						start: '2018-03-03',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-03-04',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-03-11',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-03-18',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-03-25',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-04-01',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-04-08',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-04-15',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-04-22',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-04-29',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-05-06',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-05-13',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-05-20',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-05-27',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-06-03',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-06-10',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-06-17',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-06-24',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-07-01',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-07-08',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-07-15',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-07-22',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-07-29',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-08-05',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-08-12',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-08-19',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-08-26',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-09-02',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-09-09',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-09-16',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-09-23',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-09-30',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-10-07',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-10-14',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-10-21',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-10-28',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-11-04',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-11-11',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-11-18',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-11-25',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-12-02',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-12-09',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-12-16',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-12-23',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "Sunday",
+						start: '2018-12-30',
+						color: 'grey'
+
+					},
+					{
+						className: "holiday",
+						title: "test",
+						start: '2019-02-06',
+						color: 'grey'
+
+					},
+				]
+			});
+
+
+
+		});
+
+		function show_notice(id) {
+			$('.show-notice-title').html('<div class="text-center"><img src="http://froiden.cloudapp.net/hrm_demo/front_assets/img/loading-spinner-blue.gif"></div>');
+			$('#show-notice-body').html('<div class="text-center"><img src="http://froiden.cloudapp.net/hrm_demo/front_assets/img/loading-spinner-blue.gif"></div>');
+
+			$.ajax({
+				type: 'POST',
+				url: "http://froiden.cloudapp.net/hrm_demo/dashboard/notice/" + id + "",
+				cache: false,
+				data: { "id": id },
+				success: function (response) {
+
+					$('.show-notice-title').html(response.title);
+					$('#show-notice-body').html(response.description);
+
+				},
+				error: function (xhr, textStatus, thrownError) {
+					alert('Something went wrong. Please Try again later!');
+				}
+			});
+
+		}
+
+	</script>
+
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+		$('#leave').datepicker({ minDate: 0 });
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/respond.js"></script>
+
+		<script src="http://froiden.cloudapp.net/hrm_demo/front_assets/plugins/html5shiv.js"></script>
+
+	<![endif]-->
+</body>
+</html>	
